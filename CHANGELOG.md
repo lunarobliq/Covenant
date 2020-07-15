@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Simplified compilation optimization to use HashSet
 - Limited compilation optimization for SharpSC
 - Updated Seatbelt to latest version
+- Updated SharpSploit to latest version, PowerShell task should include verbose/error output
 
 ### Fixed
 - Fixed order of Upload parameters
@@ -48,6 +49,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed LauncherForm exception when no active listeners
 - Fixed missing ReferenceAssemblies for SharpSploit
 - Fixed WMICommand/WMIGrunt output format
+- Fixed ConnectAttempts bug
+- Fixed JwtKey issue
 
 ## [v0.5] - 2020-06-04
 ### Added
